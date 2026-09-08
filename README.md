@@ -8,8 +8,8 @@ For example, consider the lines below, these lines get updated on the first day 
 
 ### Here's a Joke for you -
 
-<pre>Why did the coffee file a police report?
-It got mugged!</pre>
+<pre>I remember as a kid, my dad got fired from his job as a road worker for theft.
+I refused to believe he could do such a thing, but when I got home, the signs were all there.</pre>
 
 Let’s see how we can build this.
 
