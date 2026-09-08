@@ -17,7 +17,7 @@ while (a)%3 != 0:  #every new joke starts at line number 3n
     a = random.randint(0,len(jokes))
 
 #Find Index of the line where the edit is to be made.   
-line = readme_lines.index("## Here's a Joke for you -\n")
+line = readme_lines.index("### Here's a Joke for you -\n")
 
 #Replace the old joke line with the new joke line.
 readme_lines[line+2] = "<pre>" + jokes[a]
