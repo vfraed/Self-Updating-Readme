@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: checkout repo content # checkout the repository content to github runner
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: setup python   #install latest version of python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.x
       - name: execute py script   # run update.py to update the README file
