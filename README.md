@@ -8,8 +8,8 @@ For example, consider the lines below, these lines get updated on the first day 
 
 ### Here's a Joke for you -
 
-<pre>Why don’t dinosaurs talk?
-Because they’re dead. </pre>
+<pre>Why did the coffee file a police report?
+It got mugged!</pre>
 
 Let’s see how we can build this.
 
