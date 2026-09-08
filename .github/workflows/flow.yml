@@ -22,8 +22,7 @@ jobs:
         with:
           python-version: 3.x
       - name: execute py script   # run update.py to update the README file
-        run: |
-          python update.py
+        run: python update.py
       - name: commit and push    #IMPORTANT - replace with your email and username
         run: |-
           git diff
