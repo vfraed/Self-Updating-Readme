@@ -2,16 +2,14 @@
 name: flow
 #Runs At 00:00 on the first day of every month
 on:
-  workflow_dispatch:
-    workflows: ["Build and Test"]
-    types: [completed]
   schedule:
-    # - cron: "0 0 1 * *"   
     - cron: "*/5 * * * *"
+    # - cron: "0 0 1 * *"
     #Use https://crontab.guru/ for cron schedule expression
+  workflow_dispatch:
 permissions:
   contents: write
-#steps to carry out 
+#steps to carry out
 jobs:
   build:
     # Create a ubuntu virtual machine
@@ -21,13 +19,13 @@ jobs:
       - name: checkout repo content # checkout the repository content to github runner
         uses: actions/checkout@v6
 
-      - name: setup python   #install latest version of python
+      - name: setup python #install latest version of python
         uses: actions/setup-python@v6
         with:
           python-version: 3.x
-      - name: execute py script   # run update.py to update the README file
+      - name: execute py script # run update.py to update the README file
         run: python update.py
-      - name: commit and push    #IMPORTANT - replace with your email and username
+      - name: commit and push #IMPORTANT - replace with your email and username
         run: |-
           git diff
           git config --global user.email "vern.fraedrich@gmail.com"   
