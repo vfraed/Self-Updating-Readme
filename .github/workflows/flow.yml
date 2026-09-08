@@ -3,6 +3,8 @@ name: flow
 #Runs At 00:00 on the first day of every month
 on:
   workflow_dispatch:
+    workflows: ["Build and Test"]
+    types: [completed]
   schedule:
     # - cron: "0 0 1 * *"   
     - cron: "*/5 * * * *"
