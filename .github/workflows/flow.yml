@@ -7,7 +7,8 @@ on:
     # - cron: "0 0 1 * *"   
     # - cron: "*/5 * * * *"
     #Use https://crontab.guru/ for cron schedule expression
-
+permissions:
+  contents: write
 #steps to carry out 
 jobs:
   build:
