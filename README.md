@@ -8,8 +8,8 @@ For example, consider the lines below, these lines get updated on the first day 
 
 ### Here's a Joke for you -
 
-<pre>Why can't you trust an atom?
-Because they make up everything.</pre>
+<pre>What washes up on really small beaches?
+Micro-waves.</pre>
 
 Let’s see how we can build this.
 
