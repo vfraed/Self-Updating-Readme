@@ -8,8 +8,8 @@ For example, consider the lines below, these lines get updated on the first day 
 
 ### Here's a Joke for you -
 
-<pre>Why don't skeletons fight each other? 
-They don't have the guts!</pre>
+<pre>Did you hear about the restaurant on the moon?
+Great food, no atmosphere!</pre>
 
 Let’s see how we can build this.
 
