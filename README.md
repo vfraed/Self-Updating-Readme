@@ -8,8 +8,8 @@ For example, consider the lines below, these lines get updated on the first day 
 
 ### Here's a Joke for you -
 
-<pre>Why did the math book look sad? 
-Because it had too many problems!</pre>
+<pre>What do you call drunk Pandavas?
+High-Five.</pre>
 
 Let’s see how we can build this.
 
